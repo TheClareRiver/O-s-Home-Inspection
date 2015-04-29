@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Clarence Johnson -- Lead Designer & Developer -- proexodus@gmail.com
+
+# THANKS
+
+    Chris Coyier & Mathias Bynens -- YouTube auto-width jQuery code
+    Justin Anguilar -- CSS Animation Cheat Sheet -- @JXTN
+    
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr

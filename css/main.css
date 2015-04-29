@@ -1,0 +1,342 @@
+/*COLOR PALETTE 
+White:		#EEEEEE
+Light Blue:	#7D9AD1
+Blue:		#173A7B
+Dark Blue:	#101D34
+////////////////////*/
+
+/*Created by Clarence Johnson, 2014*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #101D34;
+    cursor: default;
+}
+
+.wrapper {
+	padding: 0px;
+}
+
+.inner-wrapper {
+	padding: 85px 40px 85px 40px;
+}
+
+h1 {
+	color: #EEEEEE;
+	font-size: 45px;
+	font-weight: 800;
+	line-height: 45px;
+	margin: 0px auto 0px auto;
+}
+
+h2 {
+	color: #EEEEEE;
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 20px;
+}
+
+h3 {
+	color: #EEEEEE;
+	font-weight: 400;
+}
+
+h4 {
+	color: #173A7B;
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 20px;
+}
+
+h5 {	
+	color: #173A7B;
+	font-weight: 700;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+
+}
+
+p {
+	color: #EEEEEE;
+	font-weight: 300;
+	font-size: 13px;
+}
+
+.introduction {
+	height: 893px;
+	background: url("../img/intro-background.png") #101D34 no-repeat;
+/*	background: #101D34;*/
+	background-position: center bottom;
+	background-size: auto 100%;
+}
+
+header {
+/*	background: #173A7B;*/
+/*	background: rgba(23, 58, 123, 0.95); */
+	z-index: 1;
+	width: 100%;
+	height: 65px;
+	visibility: hidden;
+}
+
+header img {
+	height: 35px;
+	top: 10px;
+	left: 20px;
+	position: relative;
+}
+
+nav {
+	float: right;
+	top: 5px;
+	position: relative;
+	visibility: hidden;
+}
+
+nav a:link,
+nav a:visited,
+nav a:hover,
+nav a:active{
+	color: #EEEEEE;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: 800;
+	padding-left: 15px;
+	-webkit-transition: opacity .25s; /* For Safari 3.1 to 6.0 */
+    transition: opacity .25s;
+}
+
+nav a:hover {
+	opacity: .5;
+}
+
+.intro-text {
+	top: -20px;
+	position: relative;
+	visibility: hidden;
+	padding: 0;
+	padding: 15px;
+}
+
+.video-scroll-down {
+	position: relative;
+	text-align: center;
+	padding: 0;
+	top: 10px;
+}
+
+.scroll-down {
+	margin: auto;
+	display: inline-block;
+}
+
+.about {
+	background: #173A7B;
+}
+
+.about img {
+	display: block;
+	margin: auto;
+	max-width: 323px;
+	width: 100%;
+}
+
+.services {
+	background: #7D9AD1;
+}
+
+.services img {
+	max-width: 245px;
+	width: 40%;
+	visibility: hidden;
+}
+
+.inspections {
+	background: #EEEEEE;
+}
+
+.inspections img {
+	max-width: 245px;
+	width: 40%;
+	visibility: hidden;
+}
+
+ul {
+	color: #173A7B;
+	list-style-type: none;
+	font-weight: 400;
+	font-size: 13px;
+}
+
+.contact {
+	background: #173A7B;
+	text-align: center;
+}
+
+.contact-box {
+	color: #EEEEEE;
+	width: 100%;
+	border: #EEEEEE solid 2px;
+	margin: 30px auto;
+	height: 100%;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	font-size: 10px;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	-webkit-transition: background .25s, color .25s; /* For Safari 3.1 to 6.0 */
+    transition: background .25s, color .25s;
+}
+
+.contact a:link,
+.contact a:visited,
+.contact a:hover,
+.contact a:active {
+	text-decoration: none;
+}
+
+
+.contact-box:hover {
+	color: #173A7B;
+	background: #EEEEEE;
+}
+
+
+footer {
+	height: 100%;
+	text-align: center;
+}
+
+.footer-block {
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: 600;
+	max-width: 450px;
+	margin: auto 20px;
+	display: inline-block;
+	text-align: left;
+}
+
+#footer-logo {
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+
+#social-button {
+	margin-right: 20px;
+	-webkit-transition: opacity .25s; /* For Safari 3.1 to 6.0 */
+    transition: opacity .25s;
+}
+
+#social-button:hover{
+	opacity: .5;
+}
+
+
+@media only screen and (min-width: 830px) {
+
+	header {
+		position: fixed;
+	}
+
+	header img {
+		height: 35px;
+		top: 0px;
+		left: 0px;
+		position: relative;
+	}
+
+	.introduction {
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+	.wrapper {
+		max-width: 830px;
+		margin: auto;
+		padding: 15px;
+	}
+
+	nav a:link,
+	nav a:visited,
+	nav a:hover,
+	nav a:active{
+		visibility: visible;
+	}
+
+	.intro-text {
+		top: 250px;
+		position: relative;
+		visibility: hidden;
+		padding: 0;
+		text-align: center;
+	}
+
+	.video-scroll-down {
+		top: 70px;
+	}
+
+	.about-text {
+		display: inline-block;
+		width: 390px;
+		vertical-align: middle;
+	}
+
+	.about img {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.list-of-services {
+		width: 475px;
+		display: inline-block;
+		margin: auto 0px auto 25px;
+	}
+
+	.service-type {
+		width: 225px;
+		height: 170px;
+		display: inline-table;
+	}
+
+	.services img {
+		display: inline-block;
+		position: relative;
+	}
+
+	.inspections img {
+		float: right;
+		position: relative;
+		top: 100px;
+		right: 50px;
+
+	}
+
+	.list-of-inspection {
+		width: 375px; 
+		text-align: center;
+	}
+
+	ul {
+		padding: 0px;
+	}
+
+	.contact-box {
+		font-size: 15px;
+	}
+
+	a.mobile-call {
+	   pointer-events: none;
+	   cursor: default;
+	}
+
+}
+
